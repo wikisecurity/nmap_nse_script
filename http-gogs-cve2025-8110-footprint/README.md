@@ -28,7 +28,7 @@ The script performs **non-intrusive HTTP(S) requests only** and evaluates:
    - Login page (`/user/login`) if strong Gogs indicators are present
    - No authentication is required
 
-3. **Decision mapping**
+3. **Decision mapping**  
    The script always outputs **exactly one** of the following states:
    - `possible`
    - `inconclusive`
