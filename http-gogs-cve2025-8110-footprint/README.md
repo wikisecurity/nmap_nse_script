@@ -29,11 +29,11 @@ The script performs **non-intrusive HTTP(S) requests only** and evaluates:
    - No authentication is required
 
 3. **Decision mapping**
-   - The script always outputs **exactly one** of the following states:
-     - `possible`
-     - `inconclusive`
-     - `not_vulnerable`
-     - `not_detected`
+   The script always outputs **exactly one** of the following states:
+   - `possible`
+   - `inconclusive`
+   - `not_vulnerable`
+   - `not_detected`
 
 
 ##  Result Status Definitions
