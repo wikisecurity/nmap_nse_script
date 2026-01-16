@@ -66,7 +66,7 @@ The `Evidence` line provides compact but actionable context, such as:
 
 ## Basic scan (recommended for reporting)
 ```bash
-sudo nmap -p 80,81,83,443  --script http-gogs-cve2025-8110-footprint.nse target.example.com
+sudo nmap -p 80,81,83,443 --script http-gogs-cve2025-8110-footprint.nse target.example.com
 ```
 
 ##  Example Output (POSSIBLE – simulated)
